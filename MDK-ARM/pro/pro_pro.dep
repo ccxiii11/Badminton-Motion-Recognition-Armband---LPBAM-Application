@@ -1,0 +1,1538 @@
+Dependencies for Project 'pro', Target 'pro': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (startup_stm32u545xx.s)(0x6A41365C)(--target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"STM32U545xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o pro/startup_stm32u545xx.o)
+F (..\Core\Src\i2c_cpu.c)(0x6A4239F4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/i2c_cpu.o -MMD)
+I (..\Core\Inc\i2c_cpu.h)(0x6A38DBDA)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (..\Core\Src\app.c)(0x6A5907FF)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/app.o -MMD)
+I (..\Core\Inc\app.h)(0x6A3A94A8)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\HARD\lpbam_user.h)(0x6A4129D4)
+I (..\Utilities\lpbam\stm32_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_types.h)(0x69DCFA59)
+I (..\Core\Inc\stm32_lpbam_conf.h)(0x6A413536)
+I (..\Utilities\lpbam\stm32_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_lptim.h)(0x69DCFA59)
+I (..\Core\Inc\lpdma.h)(0x6A390017)
+I (..\Core\Inc\usart.h)(0x6A58B750)
+I (..\HARD\syn6288e.h)(0x6A58A3DA)
+I (..\HARD\score_voice.h)(0x6A4E3AD2)
+I (..\HARD\model_infer.h)(0x6A3F6B70)
+I (..\HARD\NanoEdgeAI.h)(0x6A4CF1D0)
+F (../Core/Src/main.c)(0x6A5907FF)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/main.o -MMD)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Core\Inc\icache.h)(0x6A390016)
+I (..\Core\Inc\lpdma.h)(0x6A390017)
+I (..\Core\Inc\usart.h)(0x6A58B750)
+I (..\Core\Inc\gpio.h)(0x6A390015)
+I (..\LPBAM\DA\lpbam_DA.h)(0x6A390015)
+I (..\Utilities\lpbam\stm32_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_types.h)(0x69DCFA59)
+I (..\Core\Inc\stm32_lpbam_conf.h)(0x6A413536)
+I (..\Utilities\lpbam\stm32_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_lptim.h)(0x69DCFA59)
+I (..\Core\Inc\i2c_cpu.h)(0x6A38DBDA)
+I (..\HARD\lsm.h)(0x6A4E7F46)
+I (..\HARD\lsm_reg.h)(0x6A4E7402)
+I (..\HARD\mlc_load.h)(0x6A4D099E)
+I (..\HARD\lpbam_user.h)(0x6A4129D4)
+I (..\Core\Inc\app.h)(0x6A3A94A8)
+F (../Core/Src/gpio.c)(0x6A412F69)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/gpio.o -MMD)
+I (..\Core\Inc\gpio.h)(0x6A390015)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Core/Src/icache.c)(0x6A390016)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/icache.o -MMD)
+I (..\Core\Inc\icache.h)(0x6A390016)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Core/Src/lpbam.c)(0x6A390016)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/lpbam.o -MMD)
+I (..\Core\Inc\lpbam.h)(0x6A390017)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Core/Src/lpbamqueue.c)(0x6A390017)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/lpbamqueue.o -MMD)
+I (..\Core\Inc\lpbamqueue.h)(0x6A390017)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Core/Src/lpdma.c)(0x6A390017)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/lpdma.o -MMD)
+I (..\Core\Inc\lpdma.h)(0x6A390017)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Core/Src/usart.c)(0x6A58B776)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/usart.o -MMD)
+I (..\Core\Inc\usart.h)(0x6A58B750)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\HARD\syn6288e.h)(0x6A58A3DA)
+F (../Core/Src/stm32u5xx_it.c)(0x6A412DDE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_it.o -MMD)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_it.h)(0x6A412DDE)
+F (../Core/Src/stm32u5xx_hal_msp.c)(0x6A390018)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_msp.o -MMD)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (..\LPBAM\DA\lpbam_da_device_config.c)(0x6A41393B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/lpbam_da_device_config.o -MMD)
+I (..\LPBAM\DA\lpbam_da.h)(0x6A390015)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Utilities\lpbam\stm32_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_types.h)(0x69DCFA59)
+I (..\Core\Inc\stm32_lpbam_conf.h)(0x6A413536)
+I (..\Utilities\lpbam\stm32_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_lptim.h)(0x69DCFA59)
+F (..\LPBAM\DA\lpbam_da_config.c)(0x6A590883)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/lpbam_da_config.o -MMD)
+I (..\LPBAM\DA\lpbam_da.h)(0x6A390015)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Utilities\lpbam\stm32_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_types.h)(0x69DCFA59)
+I (..\Core\Inc\stm32_lpbam_conf.h)(0x6A413536)
+I (..\Utilities\lpbam\stm32_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_lptim.h)(0x69DCFA59)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ramcfg.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_ramcfg.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_i2c.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_i2c_ex.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_rcc.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_rcc_ex.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_cortex.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_flash.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_flash_ex.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_gpio.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_dma.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_dma_ex.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_exti.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_pwr.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_pwr_ex.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_gtzc.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_icache.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_lptim.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_lptim.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_uart.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c)(0x69DCFA4C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32u5xx_hal_uart_ex.o -MMD)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Core/Src/system_stm32u5xx.c)(0x69DCFA4B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/system_stm32u5xx.o -MMD)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (../Utilities/lpbam/stm32_adv_lpbam_common.c)(0x69DCFA59)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32_adv_lpbam_common.o -MMD)
+I (..\Utilities\lpbam\stm32_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_types.h)(0x69DCFA59)
+I (..\Core\Inc\stm32_lpbam_conf.h)(0x6A413536)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Utilities\lpbam\stm32_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_lptim.h)(0x69DCFA59)
+F (../Utilities/lpbam/STM32U5/stm32_ll_lpbam.c)(0x69DCFA59)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32_ll_lpbam.o -MMD)
+I (..\Utilities\lpbam\STM32U5\stm32_ll_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_types.h)(0x69DCFA59)
+I (..\Core\Inc\stm32_lpbam_conf.h)(0x6A413536)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Utilities\lpbam\stm32_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_lptim.h)(0x69DCFA59)
+F (../Utilities/lpbam/stm32_lpbam_common.c)(0x69DCFA59)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32_lpbam_common.o -MMD)
+I (..\Utilities\lpbam\STM32U5\stm32_ll_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_types.h)(0x69DCFA59)
+I (..\Core\Inc\stm32_lpbam_conf.h)(0x6A413536)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Utilities\lpbam\stm32_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_lptim.h)(0x69DCFA59)
+F (../Utilities/lpbam/stm32_adv_lpbam_i2c.c)(0x69DCFA59)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32_adv_lpbam_i2c.o -MMD)
+I (..\Utilities\lpbam\stm32_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_types.h)(0x69DCFA59)
+I (..\Core\Inc\stm32_lpbam_conf.h)(0x6A413536)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Utilities\lpbam\stm32_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_lptim.h)(0x69DCFA59)
+F (../Utilities/lpbam/stm32_lpbam_i2c.c)(0x69DCFA59)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32_lpbam_i2c.o -MMD)
+I (..\Utilities\lpbam\STM32U5\stm32_ll_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_types.h)(0x69DCFA59)
+I (..\Core\Inc\stm32_lpbam_conf.h)(0x6A413536)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Utilities\lpbam\stm32_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_lptim.h)(0x69DCFA59)
+F (..\Utilities\lpbam\stm32_lpbam_lptim.c)(0x69DCFA59)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/stm32_lpbam_lptim.o -MMD)
+I (..\Utilities\lpbam\STM32U5\stm32_ll_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_types.h)(0x69DCFA59)
+I (..\Core\Inc\stm32_lpbam_conf.h)(0x6A413536)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Utilities\lpbam\stm32_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_lptim.h)(0x69DCFA59)
+F (..\HARD\lpbam_user.c)(0x6A59088A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/lpbam_user.o -MMD)
+I (..\HARD\lpbam_user.h)(0x6A4129D4)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Utilities\lpbam\stm32_lpbam.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_types.h)(0x69DCFA59)
+I (..\Core\Inc\stm32_lpbam_conf.h)(0x6A413536)
+I (..\Utilities\lpbam\stm32_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_common.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_i2c.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\STM32U5\stm32_platform_lpbam_lptim.h)(0x69DCFA59)
+I (..\Utilities\lpbam\stm32_adv_lpbam_lptim.h)(0x69DCFA59)
+I (..\Core\Inc\lpdma.h)(0x6A390017)
+I (..\HARD\lsm_reg.h)(0x6A4E7402)
+F (..\HARD\lsm.c)(0x6A4E7F46)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/lsm.o -MMD)
+I (..\HARD\lsm.h)(0x6A4E7F46)
+I (..\HARD\lsm_reg.h)(0x6A4E7402)
+I (..\Core\Inc\i2c_cpu.h)(0x6A38DBDA)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (..\HARD\mlc_load.c)(0x6A4D099E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/mlc_load.o -MMD)
+I (..\HARD\mlc_load.h)(0x6A4D099E)
+I (..\HARD\mlc.h)(0x6A4CE660)
+I (..\HARD\lsm.h)(0x6A4E7F46)
+I (..\HARD\lsm_reg.h)(0x6A4E7402)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (..\HARD\model_infer.c)(0x6A4E3994)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/model_infer.o -MMD)
+I (..\HARD\model_infer.h)(0x6A3F6B70)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\HARD\NanoEdgeAI.h)(0x6A4CF1D0)
+F (..\HARD\score_voice.c)(0x6A4E6970)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/score_voice.o -MMD)
+I (..\HARD\score_voice.h)(0x6A4E3AD2)
+I (..\HARD\syn6288e.h)(0x6A58A3DA)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+F (..\HARD\syn6288e.c)(0x6A58A59D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../LPBAM/DA -I ../Utilities/lpbam -I ../Utilities/lpbam/STM32U5 -I ../Drivers/STM32U5xx_HAL_Driver/Inc -I ../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I ../Drivers/CMSIS/Include -I ../HARD -I ../BLUE-I./RTE/_pro-IF:/pack/ARM/CMSIS/6.3.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32U545xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32U545xx-o pro/syn6288e.o -MMD)
+I (..\HARD\syn6288e.h)(0x6A58A3DA)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal.h)(0x69DCFA4C)
+I (..\Core\Inc\stm32u5xx_hal_conf.h)(0x6A40B913)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_def.h)(0x69DCFA4C)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\stm32u545xx.h)(0x69DCFA4B)
+I (..\Drivers\CMSIS\Include\core_cm33.h)(0x69DCFA4A)
+I (..\Drivers\CMSIS\Device\ST\STM32U5xx\Include\system_stm32u5xx.h)(0x69DCFA4B)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_rcc_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_gpio_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_icache.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_dma_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_cortex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_flash_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_ll_lptim.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_pwr_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_uart_ex.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_exti.h)(0x69DCFA4C)
+I (..\Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_ramcfg.h)(0x69DCFA4C)
+I (..\Core\Inc\usart.h)(0x6A58B750)
+I (..\Core\Inc\main.h)(0x6A5907FF)
+F (..\HARD\libneai.a)(0x6A4CF1D0)()

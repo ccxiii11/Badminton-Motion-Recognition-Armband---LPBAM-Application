@@ -1,0 +1,24 @@
+; *************************************************************
+; STM32U545xx LPBAM RAM 分区 Scatter File
+; Flash : 512 KB  @ 0x08000000
+; SRAM1 : 192 KB  @ 0x20000000  (主 RAM)
+; SRAM2 :  64 KB  @ 0x20030000  (扩展 RAM)
+; SRAM4 :  16 KB  @ 0x28000000  (LPDMA / LPBAM 专用, STOP2 可访问)
+; *************************************************************
+LR_IROM1 0x08000000 0x00080000  {          ; Flash 512 KB
+  ER_IROM1 0x08000000 0x00080000  {        ; 代码区
+   *.o (RESET, +First)
+   *(InRoot$$Sections)
+   .ANY (+RO)
+   .ANY (+XO)
+  }
+  ; ---------- 主 RAM（栈、堆、普通变量）----------
+  RW_SRAM1 0x20000000 0x00040000  {        ; SRAM1: 192 KB
+   .ANY (+RW +ZI)
+  }
+  ; ---------- LPBAM 专用区（LPDMA 在 STOP2 下唯一可访问的 RAM）----------
+  RW_SRAM4 0x28000000 0x00004000  {        ; SRAM4: 16 KB
+   *(.lpbam_section)
+  }
+}
+
